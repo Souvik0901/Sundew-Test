@@ -62,7 +62,7 @@ export default function SeatSelector() {
         }
       )
       .then((res) => {
-        setStatus("Booking confirmed! 🎉");
+        setStatus("Booking confirmed");
         setSelectedSeats([]);
         setHoldId(null);
       })
